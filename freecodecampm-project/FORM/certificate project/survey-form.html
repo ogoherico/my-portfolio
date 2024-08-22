@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="survey.css"/>
+  </head>
+  <h1 id="title">Car Inspection Form<h1>
+       <p id="description">this form is to mention what you checkout for a proper car inspection</p>
+     <form id="survey-form">
+        <div class="input-element">
+           <label id="name-label">Name</label>
+              <input id="name" type="text" placeholder="name" valu="name" required/>
+         </div>
+         <div class="input-element">
+           <label id="email-label">Email
+             <input id="email" type="email" text="email" placeholder="email" required/>
+           </div>
+           <div class="input-element">
+             <label id="number-label">Age
+               <input id="number" type="number" min="12" max="120" placeholder="age" required/>
+            </div>
+            <div id="select">
+              <label id="select">do you think the car meet the condition?</label>
+                <select id="dropdown">
+                 <option>choose option</option>
+                 <option>Yes</option>
+                 <option>No</option>
+                </select>
+           </div>
+           <div name="car-name">
+              <label id="car-name">what model of car<label>
+            </div>
+            <div>
+               <input name="car-name" type="radio" value="automatic"/> Automatic
+           </div>
+            <div>
+               <input name="car-name" type="radio" value="Manual"/> Manual
+            </div>
+            <div>
+               <label>list of cars available for inspection</label>
+              <div>
+                <label><input type="checkbox" value="toyota"> Toyota</label>
+              </div>   
+              <div>
+                <label><input type="checkbox" value="Nissan"> Nissan</label>
+              </div>  
+              <div>
+                <label><input type="checkbox" value="lexus"> Lexus</label>
+              </div>  
+             <div>
+                <label><input type="checkbox" value="Benze"> Benze</label>
+             </div>  
+            <div>
+             <label><input type="checkbox" value="Bus"> Bus</label>
+            </div>  
+            <div>
+              <label class="additional comment ">coments</label>
+              <textarea></textarea>
+            </div>
+             <button id="submit" type="submit">submit</button>
+      </form>
+</html>
+
